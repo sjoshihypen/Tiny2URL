@@ -5,6 +5,7 @@ import mysql.connector
 from PIL import Image
 from io import BytesIO
 from streamlit_option_menu import option_menu
+import time
 
 # Initialize session state
 if 'url_count' not in st.session_state:
@@ -135,6 +136,16 @@ if st.session_state['logged_in']:
 
     st.write("Designed & Developed: Sushant Joshi")
 else:
-    st.title("Welcome to Tiny2QR")
+    st.title("Welcome Tiny2QR")
     st.write("Signup to access the URL Shortener & QR Code Generation features...🔐😊 ")
-    
+
+    # Image slider
+    st.write("### Check out some features")
+    images = ["Images/QR.png", "Images/QR1.png", "Images/QR2.png"]  # Add your image paths here
+    placeholder = st.empty()
+
+    while True:
+        for i in range(len(images)):
+            img = Image.open(images[i])
+            placeholder.image(img, caption=f"Image {i+1}", use_column_width=True)
+            time.sleep(3)  # Wait for 3 seconds before showing the next image
