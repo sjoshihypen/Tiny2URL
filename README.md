@@ -9,27 +9,28 @@ Behind the scenes, the app leverages libraries like pyshorteners to quickly shor
 # 1. Prepare Your Streamlit Project:
      Ensure your Streamlit app script (app.py or any other filename) is ready with all dependencies and necessary files (e.g., images, if used).
 # 2. Setup Requirements:
-     Create a requirements.txt file listing all Python dependencies required by your Streamlit app. Include packages like streamlit, pyshorteners, qrcode, and Pillow (PIL).
+     Create a requirements.txt file listing all Python dependencies required by your Streamlit app. 
+     Include packages like streamlit, pyshorteners, qrcode, and Pillow (PIL).
 **Example :  requirements.txt:**
              streamlit
              pyshorteners
              qrcode
              Pillow
 # 3. Instructions for Users:
-     Provide clear instructions for users on how to set up and run your Streamlit app. You can include these instructions in a README.md file.
-**Example README.md:**
+     Provide clear instructions for users on how to set up and run your Streamlit app. 
+     You can include these instructions in a README.md file.
 # Streamlit URL Shortener with QR Code Generation
-**1. Clone the repository:**
+**Clone the repository:**
    ```bash
    git clone <repository_url>
    cd <repository_folder>
-**2. Install dependencies:**
+**1. Install dependencies:**
     bash
     pip install -r requirements.txt
-**3.Run the Streamlit app:**
+**2.Run the Streamlit app:**
     bash
     streamlit run app.py
-**4. Access the app:**
+**3. Access the app:**
     Open a web browser and go to http://localhost:8501 (or the URL shown in the terminal after running Streamlit).
     Use the app interface to shorten URLs, generate QR codes, and manage sessions.
 # 4. Functionality
