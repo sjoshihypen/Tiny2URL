@@ -39,7 +39,11 @@ Clear Inputs: Use the "Clear" button to reset input fields.
 Session Management: Limits users to generating a maximum of 5 URLs unless they log in or purchase a premium subscription.
 Enjoy using the app!
 Welcome to the Nexus Streamlit app for URL shortening and QR code generation!
-![ss qr](https://github.com/sjoshihypen/Tiny2URL/assets/79572922/6d972197-4726-40af-9896-10002cfafe15)
+
+
+
+![ss qr](https://github.com/sjoshihypen/Tiny2URL/assets/79572922/5554007c-3068-4705-b90a-25e94f63bfc2)
+
 
 
 
